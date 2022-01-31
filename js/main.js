@@ -24,6 +24,8 @@ function choose(id) {
   h1.appendChild(vs);
   game.appendChild(h1);
 
+  document.getElementById(id).style.pointerEvents = "none"
+
   if (randomElement === "rock") {
     var div = document.createElement("div");
     var shape = document.createElement("i");
