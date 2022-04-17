@@ -25,7 +25,13 @@ i {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  gap:20px;
 }
-.card :hover {
+.card {
+  width:25%;
+  height: 300px;
+  background: linear-gradient(red, orangered);
+}
+.card:hover {
   cursor: pointer;
 }
