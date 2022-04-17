@@ -31,13 +31,10 @@ i {
   justify-content: space-around;
   gap:20px;
 }
-h3 {
-  color: white;
-}
 .card {
   width:150px;
   height: 150px;
-  background: black;
+  background: linear-gradient(#414141, black);
   position: relative;
   border-radius: 50%;
 }
