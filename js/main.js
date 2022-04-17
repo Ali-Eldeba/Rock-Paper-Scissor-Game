@@ -29,8 +29,6 @@ function choose(id) {
   if (randomElement === "rock") {
     var div = document.createElement("div");
     var shape = document.createElement("i");
-    var h3 = document.createElement("h3");
-    var text = document.createTextNode("Rock");
 
     // classing / iding
     div.id = "rock";
@@ -38,15 +36,11 @@ function choose(id) {
     shape.className = "fas fa-hand-rock";
 
     // Appending
-    h3.appendChild(text);
     div.appendChild(shape);
-    div.appendChild(h3);
     game.appendChild(div);
   } else if (randomElement === "paper") {
     var div = document.createElement("div");
     var shape = document.createElement("i");
-    var h3 = document.createElement("h3");
-    var text = document.createTextNode("Paper");
 
     // classing / iding
     div.id = "paper";
@@ -54,15 +48,11 @@ function choose(id) {
     shape.className = "fas fa-toilet-paper";
 
     // Appending
-    h3.appendChild(text);
     div.appendChild(shape);
-    div.appendChild(h3);
     game.appendChild(div);
   } else if (randomElement === "scissor") {
     var div = document.createElement("div");
     var shape = document.createElement("i");
-    var h3 = document.createElement("h3");
-    var text = document.createTextNode("Scissor");
 
     // classing / iding
     div.id = "scissor";
@@ -70,9 +60,7 @@ function choose(id) {
     shape.className = "fas fa-hand-scissors";
 
     // Appending
-    h3.appendChild(text);
     div.appendChild(shape);
-    div.appendChild(h3);
     game.appendChild(div);
   }
 
