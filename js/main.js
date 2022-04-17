@@ -34,6 +34,7 @@ function choose(id) {
 
     // classing / iding
     div.id = "rock";
+    div.className = "card";
     shape.className = "fas fa-hand-rock";
 
     // Appending
