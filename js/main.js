@@ -50,6 +50,7 @@ function choose(id) {
 
     // classing / iding
     div.id = "paper";
+    div.className = "card";
     shape.className = "fas fa-toilet-paper";
 
     // Appending
@@ -65,6 +66,7 @@ function choose(id) {
 
     // classing / iding
     div.id = "scissor";
+    div.className = "card";
     shape.className = "fas fa-hand-scissors";
 
     // Appending
