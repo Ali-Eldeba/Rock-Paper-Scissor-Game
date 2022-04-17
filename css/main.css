@@ -10,6 +10,10 @@ body {
 i {
   font-size: 40px;
   color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .game {
   width: 70%;
@@ -34,10 +38,7 @@ h3 {
   width:150px;
   height: 150px;
   background: black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  position: relative;
   border-radius: 50%;
 }
 .card:hover {
