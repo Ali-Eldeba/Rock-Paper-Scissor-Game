@@ -1,4 +1,4 @@
-new WOW().init();
+// new WOW().init();
 
 let game = document.querySelector(".game");
 let rock = document.querySelector("#rock");
